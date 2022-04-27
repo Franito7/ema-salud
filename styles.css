@@ -43,7 +43,7 @@ header {
 }
 
 .hero button {
-    margin-top: 25px;
+    margin-top: 80px;
 
 }
 
@@ -79,41 +79,51 @@ header {
 
 .hero h2 {
     text-align: center;
-    margin-top: 50px;
     font-size: 25px;
     color: #493f73;
-    text-shadow: 1px 1px white;
+    /* text-shadow: 1px 1px white; */
 }
 
+.disculpas {
+    padding-top: 200px;
+    text-shadow: 1px 1px white;
+}
 .phrase {
-    padding-top: 40px;
+
     padding-bottom: 100px;
+    text-shadow: 1px 1px white;
 }
 
 
 .hero .number {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 25px;
     color: #493f73;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
 }
 .kit {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.work {
+    padding-bottom: 10px;
+    text-shadow: 2px 2px black;
 }
 
 section .progress div{
     background-color: #493f73;
 }
 section .progress {
-    border: 2px solid black;
-background-color: rgba(73,63,115,1);}
+    box-shadow: 3px 3px black;
+    /* border: 2px solid black; */
+    background-color: rgba(73,63,115,1);}
 
 section div i {
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 2px black;
     color: #493f73;
     font-size: 35px;
 
