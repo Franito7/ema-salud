@@ -1,0 +1,155 @@
+body {
+    font-family: 'PT Mono', monospace;
+    background: rgb(60,59,89);
+    background: linear-gradient(180deg, #493f73 5%, white 90%);
+    /* background: linear-gradient(90deg, rgba(60,59,89,1) 1%, rgba(73,63,115,1) 100%); */
+    user-select: none;
+}
+
+header {
+    /* background: rgb(60,59,89);
+    background: linear-gradient(90deg, rgba(60,59,89,1) 1%, rgba(73,63,115,1) 100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+}
+
+.icon-es {
+    border-radius: 15px;
+    border: solid 2px #493f73;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    user-select: none;
+    box-shadow:3px 2px black;
+}
+
+.tittle-es {
+    letter-spacing: 1px;
+    margin-left: 20px;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #493f73;
+    text-shadow: 3px 2px black;
+    /* -webkit-text-stroke: 1px #F2D5D5; */
+    user-select: none;
+}
+
+.home-nav {
+    background-color: white;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+.nav-link{
+    font-size: 15px;
+    color: #493f73;
+}
+.nav-link:hover{
+    color: #493f73;
+    text-shadow: 1px 1px black;
+}
+.nav-link:visited {
+    color: #493f73;
+}
+
+.nosotros-container {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.nosotros-container h3 {
+    font-size: 23px;
+    text-shadow: 1px 1px black;
+    margin: 0px 25% ;
+}
+
+.t1 {
+    text-align: start;
+}
+.t2 {
+    text-align: center;
+}
+.t3 {
+    text-align: end;
+}
+
+.info-container1 {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center; 
+}
+.info1{
+    padding: 30px 30px;
+    text-align: center;
+    width: 50%;
+    border: 2px solid #493f73;
+}
+.info1 p {
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 10px 0px;
+}
+.info-container2 {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center; 
+}
+
+
+.info2{
+    padding: 30px 30px;
+    width: 50%;
+    border: 2px solid #493f73;
+    text-align: center;
+}
+.info2 p{
+    text-transform: uppercase;
+    padding: 10px 0px;
+    margin: 0px;
+}
+.info2 span{
+    color: black;
+    text-shadow: 1 px 1px black;
+}
+.info2 p i {
+    text-shadow: 2px 2px black;
+    color: #493f73;
+    font-size: 15px;
+}
+
+.info-container3 {
+    padding: 30px 0px;
+    display: block;
+}
+.info3{
+    padding: 30px 30px;
+    width: 50%;
+    border: 2px solid #493f73;
+    text-align: center;
+    margin: auto auto;
+
+}
+.info3 div{
+    padding: 0px 30px;
+}
+.info-container1 div:hover{
+    background-color: white;
+}
+.info-container2 div:hover{
+    background-color: white;
+}
+.info-container3 div:hover{
+    background-color: white;
+}
+
+
+footer {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
