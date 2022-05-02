@@ -67,6 +67,26 @@ header {
     color: #493f73;
     text-shadow: 1px 1px  black;
 }
+.legales {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.sss {
+    width: 600px;
+    height: 250px;
+}
+.logo {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 80px #493f73;
+}
+.minsalud {
+    width: 600px;
+    height: 300px;
+}
 
 footer {
     padding-top: 100px;
