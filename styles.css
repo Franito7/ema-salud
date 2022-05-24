@@ -1,195 +1,449 @@
-body {
-    background: rgb(60,59,89);
-    background: linear-gradient(90deg, rgba(60,59,89,1) 1%, rgba(73,63,115,1) 100%);
+* {
+    font-family: 'Roboto', sans-serif;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 250px;
-
-}
-
-.icon-es {
-    border-radius: 15px;
-    border: solid 2px #493f73;
-    margin-top: 90px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    user-select: none;
-    box-shadow:3px 2px black;
-}
-
-.tittle-es {
-    letter-spacing: 1px;
-    font-family: 'PT Mono', monospace;
-    margin-left: 20px;
-    font-size: 60px;
-    margin-top: 80px;
-    color: #493f73;
-    text-shadow: 3px 2px black;
-    /* -webkit-text-stroke: 1px #F2D5D5; */
-    user-select: none;
-}
-
-.container {
-    padding-top: 50px;
-}
 
 .hero {
-    width: 100%;
-    height: 600px;
+    margin-top: 70px;
+    border-radius: 5px;
 }
 
-.hero button {
-    margin-top: 80px;
-
+.hero img {
+    object-fit: contain;
 }
 
-.hero #b1{
-    position: absolute;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    border: 2px solid black;
-    background-color: white;
-    transition: .1s;
-} 
-
-.hero #b1:hover {
-    margin-left: 50%;
-    transform: translateX(-50%);
-    border: 2px solid black;
-    background-color: #493f73;;
-}
-
-
-.offcanvas-title{
-    color: black;
-    font-size: 22px;
-
-}
-.hero div p {
-    font-size: 18px;
-}
-
-.hero div p i {
-    font-size: 20px;
-}
-
-.hero h2 {
-    text-align: center;
-    font-size: 25px;
+.hero div h6 {
+    font-family: 'Akshar', sans-serif;
+    font-size: 19px;
     color: #493f73;
-    /* text-shadow: 1px 1px white; */
+    font-style: italic;
 }
-
-.disculpas {
-    padding-top: 200px;
-    text-shadow: 1px 1px white;
-}
-.phrase {
-
-    padding-bottom: 100px;
-    text-shadow: 1px 1px white;
-}
-
-
-.hero .number {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 25px;
+.hero div h6 span {
+    font-family: 'Akshar', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
     color: #493f73;
-    text-shadow: 2px 2px black;
 }
-.kit {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-bottom: 40px;
+.hero div h6 .salud {
+    font-family: 'Akshar', sans-serif;
+    font-size: 19px;
 }
-
-.work {
-    padding-bottom: 10px;
-    text-shadow: 2px 2px black;
+.hero div .oms {
+    font-style: normal;
+    font-size: 17px;
+    color: #493f73;
 }
 
-section .progress div{
+.navbar-brand {
+    border-radius: 5px;
+    transition: .6s;
+    font-weight: bolder;
+}
+.navbar-brand span {
+    font-family: 'PT Mono', monospace;
+    font-weight: bold;
+}
+.navbar-brand img {
+    border-radius: 5px;
+    width: 55px;
+    height: 35px;
+}
+.navbar-brand:hover {
     background-color: #493f73;
 }
-section .progress {
-    box-shadow: 3px 3px black;
-    /* border: 2px solid black; */
-    background-color: rgba(73,63,115,1);}
 
-section div i {
-    text-shadow: 2px 2px black;
-    color: #493f73;
-    font-size: 35px;
-
+.nav-link {
+    border-radius: 5px;
+    transition: .6s;
+}
+.nav-link:hover {
+    background-color: #493f73;
+}
+.dropdown-item:hover {
+    background-color: #493f73;
 }
 
-@media screen and (min-width:250px) and (max-width:550px){
-    header {
+.important .app {
+    border: #493f73 4px solid;
+    border-radius: 15px;
+    height: 170px;
+}
+
+.important i {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 20px 12px 10px 12px;
+    border-radius: 50px 50px 10px 10px;
+}
+.important .a  i{
+    background-color: red;
+}
+.important .b  i{
+    background-color: green;
+}
+.important .app p {
+
+    margin-top: 10%;
+    color: #493f73;
+    font-weight: bold;
+}
+.important .a {
+    font-size: 20px;
+    font-weight: bolder;
+    /* border: red 4px solid ; */
+    color: red;
+    border-radius: 20px;
+    height: 170px;
+    transition: .8s;
+}
+.important .a p, .important .b p {
+    margin-top: -10px;
+}
+.important .b {
+    /* border: green 4px solid ; */
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 20px;
+    color: green;
+    height: 170px;
+    transition: .8s;
+}
+
+.important .a:hover {
+    background-color: red;
+    color: white;
+}
+.important .b:hover {
+    background-color: green;
+    color: white;
+}
+
+.cml .contenedor {
+    display: flex;
+    flex-direction: row;
+}
+
+.cml iframe {
+    border-width: 0ch;
+    border-left: #493f73 4px solid;
+    border-top: #493f73 4px solid;
+    border-bottom: #493f73 4px solid;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.cml .a {
+    display: flex;
+    justify-content: end;
+}
+
+.cml .b .btn {
+        background-color: #493f73;
+        color: white;
+        border-radius: 5px;
+}
+
+.cml .b {
+    margin-left: -12px;
+    display:flex;
+    flex-direction: column;
+    border-top: solid 4px #493f73;
+    border-right: solid 4px #493f73;
+    border-bottom: solid 4px #493f73;
+    border-radius: 0px 5px 5px 0px;
+
+}
+.cml .b h3{
+    color: #493f73;
+    font-weight: bold;
+}
+
+.cml .b .btn {
+    font-weight: bold;
+    background-color: white;
+    color: #493f73;
+    border: 2px solid #493f73
+}
+.cml .b .btn:hover {
+    background-color: #493f73;
+    color: white;
+}
+
+.campaign h4 {
+    color: #493f73;
+}
+
+.card img {
+    margin: auto;
+    object-fit: contain;
+    width: 410px;
+    height: 200px;
+}
+
+.card .btn {
+    background-color: white;
+    color: #493f73;
+    border: 2px solid #493f73;
+}
+.card .btn:hover {
+    background-color: #493f73;
+    color: white;
+    border: 2px solid #493f73;
+}
+
+
+.legal div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.legal .minsal{
+    width: 150px;
+    height: 60px;
+    margin-top: 10px;
+}
+.legal .ospsip{
+    width: 180px;
+    height: 90px;
+}
+.legal .sss{
+    width: 180px;
+    height: 70px;
+}
+
+footer p {
+    font-size: 12px;
+    color: white;
+    margin: auto;
+}
+
+
+/* config bootstrap  */
+input:focus, textarea:focus, a:focus button:focus select:focus, select, input.form-control:focus, textarea.form-control:focus, button.navbar-toggler:focus, a.btn:focus {
+
+    outline:none !important;
+
+    outline-width: 0 !important;
+
+    box-shadow: none;
+
+    -moz-box-shadow: none;
+
+    -webkit-box-shadow: none;
+}
+
+
+
+@media screen and (min-width:250px) and (max-width:550px) {
+    
+    .legal div {
+        flex-direction: column;
+        text-align: center;
+    }
+    .legal .minsal{
+        width: 130px;
+        height: 40px;
+    }
+    .legal .ospsip{
+        width: 150px;
+        height: 60px;
+    }
+    .legal .sss{
+        width: 150px;
+        height: 50px;
+    }
+    
+    footer p {
+        font-size: 10px;
+        color: white;
+        margin: auto;
+    }
+    .hero div h6 {
+        font-family: 'Akshar', sans-serif;
+        font-size: 15px;
+        color: #493f73;
+    }
+    .hero div h6 span {
+        font-family: 'Akshar', sans-serif;
+        font-size: 19px;
+        color: #493f73;
+    }
+    .hero div h6 .salud {
+        font-family: 'Akshar', sans-serif;
+        font-size: 15px;
+        text-decoration: underline;
+    }
+    .hero div .oms {
+        font-size: 12px;
+        color: #493f73;
+    }
+
+    .card img {
+        margin: auto;
+        object-fit: cover;
+        width: 150px;
+        height: 100px;
+    }
+    .card-title {
+        font-size: 17px;
+    }
+    .important .a, .important .b {
+        margin-top: 15px;
+    }
+
+    .cml .contenedor {
         display: flex;
         flex-direction: column;
     }
-    .icon-es {
-        border-radius: 15px;
-        border: solid 2px #493f73;
-        margin-top: 50px;
-        margin-right: 5px;
-        margin-bottom: 20px;
-        user-select: none;
-        box-shadow:3px 2px black;
+
+    .cml iframe {
+        border-width: 0ch;
+        border-left: #493f73 4px solid;
+        border-top: #493f73 4px solid;
+        border-right: #493f73 4px solid;
+        border-bottom: none;
+        border-radius: 5px 5px 0px 0px;
     }
     
-    .tittle-es {
-        letter-spacing: 1px;
-        font-family: 'PT Mono', monospace;
-        margin-left: 10px;
-        font-size: 55px;
-        margin-top: 20px;
-        color: #493f73;
-        text-shadow: 3px 2px black;
-        /* -webkit-text-stroke: 1px #F2D5D5; */
-        user-select: none;
+    .cml .a {
+        display: flex;
+        justify-content: end;
     }
     
-    .hero h2 {
-        text-align: center;
-        margin-top: 50px;
-        font-size: 20px;
-        color: #493f73;
-        text-shadow: 1px 1px white;
-    }
-    
-    .hero #b1{
-        position: absolute;
-        margin-left: 50%;
-        transform: translateX(-50%);
-        border: 2px solid black;
+    .cml .b .btn {
+        font-weight: bold;
         background-color: white;
-        transition: .1s;
-    } 
-    
-    .hero #b1:hover {
-        text-align: center;
-        margin-left: 50%;
-        transform: translateX(-50%);
-        border: 2px solid black;
+        color: #493f73;
+        border: 2px solid #493f73
+    }
+    .cml .b .btn:hover {
         background-color: #493f73;
+        color: white;
     }
-    .offcanvas-title{
-        color: black;
+    
+    .cml .b {
+        margin-left: 0px;
+        display:flex;
+        flex-direction: column;
+        border-top: none;
+        border-left: solid 4px #493f73;
+        border-right: solid 4px #493f73;
+        border-bottom: solid 4px #493f73;
+        border-radius: 0px 0px 5px 5px;
+    
+    }
+    .cml .b h3{
         font-size: 20px;
-    
+        font-weight: bold;
     }
-    .hero div p {
+
+
+}
+
+@media screen and (min-width:550px) and (max-width:750px) {
+    .legal .minsal{
+        width: 130px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .legal .ospsip{
+        width: 150px;
+        height: 60px;
+    }
+    .legal .sss{
+        width: 150px;
+        height: 50px;
+    }
+    
+    footer p {
+        font-size: 10px;
+        color: white;
+        margin: auto;
+    }
+
+    .hero div h6 {
+        font-family: 'Akshar', sans-serif;
+        font-size: 15px;
+        color: white;
+    }
+    .hero div h6 span {
+        font-family: 'Akshar', sans-serif;
+        font-size: 20px;
+        color: #493f73;
+    }
+    .hero div h6 .salud {
+        font-family: 'Akshar', sans-serif;
+        font-size: 15px;
+        text-decoration: underline;
+    }
+    .hero div .oms {
+        font-size: 13px;
+        color: #493f73;
+    }
+
+    .card img {
+        margin: auto;
+        object-fit: cover;
+        width: 150px;
+        height: 100px;
+    }
+    .card-title {
         font-size: 18px;
     }
+    .important .a, .important .b {
+        margin-top: 15px;
+    }
+
+    .cml .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cml iframe {
+        border-width: 0ch;
+        border-left: #493f73 4px solid;
+        border-top: #493f73 4px solid;
+        border-right: #493f73 4px solid;
+        border-bottom: none;
+        border-radius: 5px 5px 0px 0px;
+    }
     
-    .hero div p i {
+    .cml .a {
+        display: flex;
+        justify-content: end;
+    }
+    
+    .cml .b .btn {
+            background-color: #493f73;
+            color: white;
+            border-radius: 5px;
+    }
+    
+    .cml .b {
+        margin-left: 0px;
+        display:flex;
+        flex-direction: column;
+        border-top: none;
+        border-left: solid 4px #493f73;
+        border-right: solid 4px #493f73;
+        border-bottom: solid 4px #493f73;
+        border-radius: 0px 0px 5px 5px;
+    
+    }
+    
+}
+
+@media screen and (min-width:750px) and (max-width:950px) {
+    .card img {
+        margin: auto;
+        object-fit: cover;
+        width: 150px;
+        height: 100px;
+    }
+    .card-title {
         font-size: 18px;
+    }
+    .important .a, .important .b {
+        margin-top: 15px;
     }
 }

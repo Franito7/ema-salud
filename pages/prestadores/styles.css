@@ -1,0 +1,157 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar-brand {
+    border-radius: 5px;
+    transition: .3s;
+    font-weight: bolder;
+}
+.navbar-brand span {
+    font-family: 'PT Mono', monospace;
+    font-weight: bold;
+}
+.navbar-brand img {
+    border-radius: 5px;
+    width: 55px;
+    height: 35px;
+}
+.navbar-brand:hover {
+    background-color: #493f73;
+}
+
+.nav-link {
+    border-radius: 5px;
+    transition: .3s;
+}
+.nav-link:hover {
+    background-color: #493f73;
+}
+
+.dropdown-item:hover {
+    background-color: #493f73;
+}
+
+h4 {
+    color: #493f73;
+    border: #493f73 2px solid;
+    border-radius: 5px;
+}
+
+h5 {
+    color: #493f73;
+    border-radius: 5px;
+}
+
+.legal div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.legal .minsal{
+    width: 150px;
+    height: 60px;
+    margin-top: 10px;
+}
+.legal .ospsip{
+    width: 180px;
+    height: 90px;
+}
+.legal .sss{
+    width: 180px;
+    height: 70px;
+}
+
+footer p {
+    font-size: 12px;
+    color: white;
+    margin: auto;
+}
+
+footer p {
+    font-size: 12px;
+    color: white;
+    margin: auto;
+}
+
+/* config bootstrap  */
+input:focus, textarea:focus, a:focus button:focus select:focus, select, input.form-control:focus, textarea.form-control:focus, button.navbar-toggler:focus, a.btn:focus {
+
+    outline:none !important;
+
+    outline-width: 0 !important;
+
+    box-shadow: none;
+
+    -moz-box-shadow: none;
+
+    -webkit-box-shadow: none;
+}
+
+/* RESPONSIVE  */
+
+@media screen and (min-width:250px) and (max-width:550px) {
+
+    .table th, .table td {
+        font-size: 12px;
+    } 
+
+    .legal div {
+        flex-direction: column;
+        text-align: center;
+    }
+    .legal .minsal{
+        width: 130px;
+        height: 40px;
+    }
+    .legal .ospsip{
+        width: 150px;
+        height: 60px;
+    }
+    .legal .sss{
+        width: 150px;
+        height: 50px;
+    }
+    
+    footer p {
+        font-size: 10px;
+        color: white;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width:550px) and (max-width:750px) {
+
+    .table th, .table td {
+        font-size: 14px;
+    } 
+
+    .legal .minsal{
+        width: 130px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .legal .ospsip{
+        width: 150px;
+        height: 60px;
+    }
+    .legal .sss{
+        width: 150px;
+        height: 50px;
+    }
+    
+    footer p {
+        font-size: 10px;
+        color: white;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width:750px) and (max-width:950px) {
+    .table th, .table td {
+        font-size: 15px;
+    } 
+}

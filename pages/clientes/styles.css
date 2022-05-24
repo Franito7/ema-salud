@@ -1,0 +1,179 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.navbar-brand {
+    border-radius: 5px;
+    transition: .3s;
+    font-weight: bolder;
+}
+.navbar-brand span {
+    font-family: 'PT Mono', monospace;
+    font-weight: bold;
+}
+.navbar-brand img {
+    border-radius: 5px;
+    width: 55px;
+    height: 35px;
+}
+.navbar-brand:hover {
+    background-color: #493f73;
+}
+
+.nav-link {
+    border-radius: 5px;
+    transition: .3s;
+}
+.nav-link:hover {
+    background-color: #493f73;
+}
+
+.dropdown-item:hover {
+    background-color: #493f73;
+}
+
+h4 {
+    color: #493f73;
+    border: #493f73 2px solid;
+    border-radius: 5px;
+}
+
+.card-body a {
+    background-color: #493f73;
+    color: white;
+}
+.card-body p {
+    color: #493f73;
+    font-weight: bolder;
+}
+
+.card img {
+    object-fit: contain;
+    margin: auto;
+    width: 210px;
+    height: 200px;
+}
+
+.card .btn {
+    background-color: white;
+    color: #493f73;
+    border: 2px solid #493f73;
+}
+.card .btn:hover {
+    background-color: #493f73;
+    color: white;
+    border: 2px solid #493f73;
+}
+
+
+#btnred {
+    margin-left: 35%;
+}
+
+.legal div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.legal .minsal{
+    width: 150px;
+    height: 60px;
+    margin-top: 10px;
+}
+.legal .ospsip{
+    width: 180px;
+    height: 90px;
+}
+.legal .sss{
+    width: 180px;
+    height: 70px;
+}
+
+footer p {
+    font-size: 12px;
+    color: white;
+    margin: auto;
+}
+
+
+
+/* RESPONSIVE  */
+
+@media screen and (min-width:250px) and (max-width:550px) {
+
+    .card img {
+        object-fit: contain;
+        margin: auto;
+        width: 150px;
+        height: 150px;
+    }
+    #btnred {
+        margin-left: 35%;
+    }
+
+    .legal div {
+        flex-direction: column;
+        text-align: center;
+    }
+    .legal .minsal{
+        width: 130px;
+        height: 40px;
+    }
+    .legal .ospsip{
+        width: 150px;
+        height: 60px;
+    }
+    .legal .sss{
+        width: 150px;
+        height: 50px;
+    }
+    
+    footer p {
+        font-size: 10px;
+        color: white;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width:550px) and (max-width:750px) {
+
+    .card img {
+        object-fit: contain;
+        margin: auto;
+        width: 150px;
+        height: 150px;
+    }
+    #btnred {
+        margin-left: 12%;
+    }
+    .legal .minsal{
+        width: 130px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .legal .ospsip{
+        width: 150px;
+        height: 60px;
+    }
+    .legal .sss{
+        width: 150px;
+        height: 50px;
+    }
+    
+    footer p {
+        font-size: 10px;
+        color: white;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width:750px) and (max-width:950px) {
+    #btnred {
+        margin-left: 25%;
+    }
+
+}
